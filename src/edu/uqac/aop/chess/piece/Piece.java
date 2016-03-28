@@ -19,6 +19,7 @@ public abstract class Piece {
      public void setPlayer(int player) {
              this.player = player;
      }
+     
      public abstract boolean isMoveLegal(Move mv);
 
      public abstract String toString();
